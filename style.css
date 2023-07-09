@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Roboto, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.mainContainer{
+    /* background-color: aquamarine; */
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    color: white;
+    background-image: url("https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/getty/article/79/119/177089896.jpg");
+    box-shadow: 0 8px 18px 3px gray, 0 6px 18px 0 gray;
+    border: 5px solid black;
+
+}
+h1 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    padding-top: 10px;
+    font-family: 'Ultra', serif;
+    color: white;
+    text-shadow: 4px 2px 4px #000000;
+}
+
+.converter {
+    height: 130px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.converter input {
+    margin-right: 15px;
+    background-color: rgb(251, 252, 253);
+    width: 130px;
+    padding: 5px;
+}
+.converter #unit{
+    width: 100px;
+    height: 26px;
+    margin-left: 5px;
+    background-color: rgb(252, 252, 253);
+}
+
+.converter button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: rgb(81, 221, 81);
+    color: white;
+    text-shadow: 4px 2px 4px #000000;
+    border: none;
+    cursor: pointer;
+}
+.converter button:hover{
+    background-color: #0e90f3;
+}
+
+.result {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 4px 2px 4px #000000;
+}
